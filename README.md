@@ -38,7 +38,6 @@ Puedes verificar tu versión de Python con:
 python --version
 ```
 
----
 
 ## 📦 Clonar el repositorio
 
@@ -63,7 +62,7 @@ Desde el directorio raíz del proyecto:
 python -m venv .venv
 ```
 
----
+
 
 ### 2️⃣ Activar el entorno virtual
 
@@ -85,7 +84,7 @@ Cuando el entorno esté activo, se verá
 (.venv)
 ```
 
----
+
 
 ### 3️⃣ Instalar dependencias
 
@@ -95,7 +94,7 @@ Con el entorno virtual activado, instala los requerimientos:
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 🚀 Levantar la API
 
@@ -109,7 +108,6 @@ uvicorn app:app --reload
 * `app`: instancia de FastAPI
 * `--reload`: recarga automática al detectar cambios
 
----
 
 ## 🔍 Verificar que la API funciona
 
