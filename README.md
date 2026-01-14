@@ -14,7 +14,6 @@ El objetivo del proyecto es:
 * Exponer dicho modelo mediante una **API REST** usando **FastAPI**.
 * Permitir que el backend consuma la API y el frontend muestre al usuario si su vuelo **se retrasará o no**.
 
-
 ## 🛠️ Tecnologías utilizadas
 
 * **Python**
@@ -22,8 +21,6 @@ El objetivo del proyecto es:
 * **Uvicorn**
 * **Scikit-learn / modelo ML**
 * **Virtualenv (venv)**
-
-
 
 ## 📋 Requisitos previos
 
@@ -38,13 +35,12 @@ Puedes verificar tu versión de Python con:
 python --version
 ```
 
-
 ## 📦 Clonar el repositorio
 
 Clona el repositorio en tu máquina local usando Git:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git](https://github.com/GP-Core/microServicioML.git
+git clone https://github.com/GP-Core/microServicioML.git
 ```
 
 Luego entra al directorio del proyecto
@@ -61,8 +57,6 @@ Desde el directorio raíz del proyecto:
 ```bash
 python -m venv .venv
 ```
-
-
 
 ### 2️⃣ Activar el entorno virtual
 
@@ -93,8 +87,6 @@ Con el entorno virtual activado, instala los requerimientos:
 ```bash
 pip install -r requirements.txt
 ```
-
-
 
 ## 🚀 Levantar la API
 
