@@ -70,6 +70,6 @@ def predict_pr(request: PredictionRequest):
     pred = model.predict(df_input)[0]
     proba = model.predict_proba(df_input)[0,1]    
     return PredictionResponse(
-        prevision = "Restrasado" if pred == 1 else "Puntual",
+        prevision = "Retrasado" if pred == 1 else "Puntual",
         probabilidad = round(float(proba), 2)
     )
